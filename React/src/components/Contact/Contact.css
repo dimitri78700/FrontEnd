@@ -1,0 +1,62 @@
+/* Contact.css */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#contact {
+	width: 50%;
+	margin: 40px auto;
+}
+
+#contact > * {
+	text-align: center;
+}
+
+#contact h2 {
+	font-family: 'Syne';
+	font-weight: 700;
+	font-size: 30px;
+	color: rgb(29, 97, 84);
+	margin-bottom: 20px;
+}
+
+#contact p {
+	font-family: 'Work Sans';
+	font-size: medium;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+#contact form {
+	text-align: left;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+#contact input,
+#contact textarea {
+	font-size: 1.2em;
+	border: none;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+}
+
+#contact input {
+	height: 50px;
+}
+
+#contact label {
+	font-family: 'Work Sans';
+	margin: 2em 0 1em 0;
+}
+
+input[type="submit"] {
+	font-family: 'Syne';
+	font-weight: 700;
+	color: white;
+	background-color: #1D6154;
+	margin: 2em auto;
+	width: 180px;
+	text-align: center;
+	border-radius: 60px;
+	cursor: pointer;
+}

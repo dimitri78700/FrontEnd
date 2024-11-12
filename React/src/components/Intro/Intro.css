@@ -1,0 +1,37 @@
+/* Introduction.css */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#introduction {
+	display: flex;
+	align-items: center;
+	margin: 50px 0 50px 0;
+}
+
+#introduction figure {
+	flex: 1 1 0%;
+}
+
+#introduction img {
+	background-image: url(../../images/sophie-bluel.png);
+	display: block;
+	margin: auto;
+	width: 85%
+}
+
+#introduction article {
+	flex: 1;
+}
+
+#introduction h2 {
+	font-family: 'Syne';
+	font-weight: 700;
+	font-size: 30px;
+	color: rgb(29, 97, 84);
+	margin-bottom: 1em;
+}
+
+#introduction p {
+	margin-bottom: 0.5em;
+	font-family: 'Work Sans';
+}

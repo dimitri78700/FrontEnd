@@ -1,0 +1,52 @@
+/* Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0;
+	
+}
+
+a {
+	color: inherit; /* La couleur normale des liens */
+	text-decoration: none; /* Pour enlever le soulignement si souhaité */
+  }
+  
+  a:visited {
+	color: inherit; /* La couleur des liens visités sera la même que celle par défaut */
+  }
+
+h1 {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Syne';
+	font-size: 22px;
+	font-weight: 800;
+	color: #B1663C;
+	
+}
+
+h1 > span {
+	font-family: 'Work Sans';
+	font-size: 10px;
+	letter-spacing: 0.1em;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+
+nav li {
+	font-family: 'Work Sans';
+	padding: 0 10px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+li:hover {
+	color: #B1663C;
+}

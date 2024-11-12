@@ -1,0 +1,63 @@
+/* Portfolio.css */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#portfolio {
+	margin: 50px 0;
+}
+
+#portfolio h2 {
+	font-family: 'Syne';
+	font-weight: 700;
+	font-size: 30px;
+	color: rgb(29, 97, 84);
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.categories {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;	
+}
+
+.categories button {
+	background-color: transparent;
+	border : 1px solid rgb(29, 97, 84);
+	border-radius: 20px;
+	color: rgb(29, 97, 84);
+	font-family: 'Work Sans';
+	font-size: 16px;
+	margin: 0 10px;
+	padding: 10px;
+	cursor: pointer;
+	font-weight: 500;
+}
+
+.categories button:hover {
+	background-color: rgb(29, 97, 84);
+	color: white;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px; /* Espacement entre les images */
+  }
+
+  .gallery figure {
+	margin: 0;
+	overflow: hidden;
+	cursor: pointer;
+  }
+  
+  .gallery img {
+	width: 100%;
+	height: auto;
+	display: block;
+  }
+  
+figcaption {
+	font-family: 'Work Sans';
+	font-size: small;
+  }
