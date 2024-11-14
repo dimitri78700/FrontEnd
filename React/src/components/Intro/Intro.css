@@ -6,6 +6,8 @@
 	display: flex;
 	align-items: center;
 	margin: 50px 0 50px 0;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 #introduction figure {
@@ -16,7 +18,7 @@
 	background-image: url(../../images/sophie-bluel.png);
 	display: block;
 	margin: auto;
-	width: 85%
+	width: 70%
 }
 
 #introduction article {
@@ -32,6 +34,7 @@
 }
 
 #introduction p {
+	padding-right: 20px;
 	margin-bottom: 0.5em;
 	font-family: 'Work Sans';
 }

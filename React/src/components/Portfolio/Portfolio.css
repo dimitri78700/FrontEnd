@@ -40,9 +40,10 @@
 }
 
 .gallery {
+	margin: 60px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	gap: 20px; /* Espacement entre les images */
+	gap: 10px; /* Espacement entre les images */
   }
 
   .gallery figure {
@@ -52,7 +53,7 @@
   }
   
   .gallery img {
-	width: 100%;
+	width: 99%;
 	height: auto;
 	display: block;
   }
