@@ -52,15 +52,6 @@ const PortfolioEdit = () => {
        
       </h2>
 
-      <div className="categories">
-        <button onClick={() => setSelectedCategory("Tous")}>Tous</button>
-        {categories.map(({ id, name }) => (
-          <button key={id} onClick={() => setSelectedCategory(name)}>
-            {name}
-          </button>
-        ))}
-      </div>
-
       <div className="gallery">
         {filteredWorks.map(({ id, imageUrl, title }) => (
           <figure key={id}>
